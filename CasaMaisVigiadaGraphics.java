@@ -30,7 +30,7 @@ public class CasaMaisVigiada {
         ArrayList<Jogador> jogadores = new ArrayList<>();
         Scanner scn = new Scanner(System.in);
 
-        // Cadastro de jogadores
+      
         jogadores.add(new Jogador("Alane Dias"));
         jogadores.add(new Jogador("Beatriz Reis"));
         jogadores.add(new Jogador("Davi Brito"));
@@ -61,7 +61,7 @@ public class CasaMaisVigiada {
         String votoEm = "";
         int totalVotos = 0;
 
-        // Votos
+      
         while (!votoEm.equalsIgnoreCase("sair")) {
             votoEm = JOptionPane.showInputDialog(null,
                     "Em quem você vota para sair da casa?");
@@ -83,7 +83,7 @@ public class CasaMaisVigiada {
             }
         }
 
-        // Apuração final dos votos (discurso de eliminação)
+       
         int votoMaior = 0;
         String eliminado = "";
 
